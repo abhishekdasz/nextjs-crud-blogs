@@ -16,7 +16,7 @@ const page = () => {
         e.preventDefault();
         try 
         {
-            const res = await axios.post('https://nextjs-crud-blogs-f9k1hnuhj-abhishekdasz.vercel.app//api/blogs', blogsData);
+            const res = await axios.post('https://nextjs-crud-blogs-f9k1hnuhj-abhishekdasz.vercel.app/api/blogs', blogsData);
             const createdBlogs = res.data;
             console.log(createdBlogs);
         }
